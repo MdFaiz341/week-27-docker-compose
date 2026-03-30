@@ -20,3 +20,9 @@
     - docker build --network=host -t user-project-app .
  - Start Image or Start Server with connection of your DB dont hit localhost, hit name of DB
     - docker run --network user-network -e DATABASE_URL=postgresql://postgres:2026@postgres-db:5432/postgres -p 3000:3000 user-project-app
+
+
+## Docker-Compose Installation
+ - Install Docker, docker-compose
+ - Run `docker-compose up`
+   
